@@ -26,7 +26,7 @@ app.use('/api/addresses', require('./routes/addressRoutes')) // add
 
 // optional
 app.get('/', (req, res) => {
-  res.status(200).json("Welcome to Address Book with CD! I love XYZ")
+  res.status(200).json("Welcome to Address Book with CD! Why did this take so long?")
 })
 
 app.listen(port, () => {
